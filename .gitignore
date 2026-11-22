@@ -1,0 +1,43 @@
+# Private: never push these to the public repo
+strategy/
+private/
+
+# Data and recordings
+data/
+recordings/
+*.mp4
+*.mov
+*.avi
+*.bag
+*.mcap
+*.hdf5
+*.h5
+*.parquet
+
+# Models and training output
+checkpoints/
+outputs/
+wandb/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
