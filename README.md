@@ -1,4 +1,4 @@
-# supervised-cell
+# robotics-startup
 
 Robot cells that do one factory job, with a remote human who fixes mistakes in VR.
 Every fix becomes training data, so one operator can supervise more robots every month.
